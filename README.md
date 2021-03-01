@@ -1,6 +1,6 @@
 [![Build Status](https://img.shields.io/badge/platform-Android-green)](https://www.android.com/) [![API](https://img.shields.io/badge/API-+23-brightgreen)](https://android-arsenal.com/api?level=23) [![API](https://img.shields.io/badge/license-MIT-blue)]()
 
-<img src="https://i.ibb.co/WtCKy6j/ic-launcher-web1.png" width="50" height="50" align="center">
+<img src="https://i.ibb.co/WtCKy6j/ic-launcher-web1.png" width="80" height="80" align="center">
 
 # Content
 - [About Projects](https://github.com/studiodoctor/weather-app#about-projects)
