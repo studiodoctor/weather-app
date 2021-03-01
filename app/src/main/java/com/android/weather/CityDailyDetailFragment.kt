@@ -9,6 +9,9 @@ import androidx.databinding.DataBindingUtil
 import com.android.weather.databinding.FragmentOneDayDetailBinding
 import com.android.weather.model.CityDailyResponse
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ */
 
 class CityDailyDetailFragment : Fragment() {
 

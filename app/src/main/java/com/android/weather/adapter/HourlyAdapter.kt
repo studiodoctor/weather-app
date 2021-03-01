@@ -9,6 +9,12 @@ import com.android.weather.databinding.ForecastWeatherHourlyItemBinding
 import com.android.weather.model.ForecastResponse
 import com.android.weather.util.dayConverter
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * HourlyAdapter : This adapter will get the forecast for next five days with times and show it one by one using recyclerview.
+ */
+
 class HourlyAdapter(val hourlyList: ArrayList<ForecastResponse.Forecast>) :
     RecyclerView.Adapter<HourlyAdapter.HourlyViewHolder>() {
 

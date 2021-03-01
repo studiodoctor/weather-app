@@ -26,6 +26,13 @@ import com.android.weather.viewmodel.LocationViewModel
 import im.delight.android.location.SimpleLocation
 import kotlinx.android.synthetic.main.fragment_location.*
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * City Daily Fragment : This will get the user current location send it to Rapid api and on successful response,
+ * it will show the Current temperature, Pressure, Wind, Humidity, Visibility, Sunrise and Sunset time.
+ */
+
 class LocationFragment : Fragment() {
 
     private val REQUEST_CODE = 1
@@ -120,7 +127,7 @@ class LocationFragment : Fragment() {
                 viewModel.getWeatherDataWithGPS(latitude!!, longitude!!, Constant.METRIC)
 
             } else {
-                Toast.makeText(context, "İzin vereydin de konumunu bulaydık :P", Toast.LENGTH_LONG)
+                Toast.makeText(context, "Unable to get your location :P", Toast.LENGTH_LONG)
                     .show()
             }
         }

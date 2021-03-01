@@ -4,6 +4,12 @@ import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * CityDailyResponse : A POJO class.
+ */
+
 class CityDailyResponse() : Parcelable {
     @SerializedName("list")
     var list: List<Forecast>? =

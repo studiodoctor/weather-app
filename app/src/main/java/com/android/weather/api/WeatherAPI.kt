@@ -7,6 +7,12 @@ import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * WeatherAPI : API end points.
+ */
+
 interface WeatherAPI {
 
     @GET("weather?")

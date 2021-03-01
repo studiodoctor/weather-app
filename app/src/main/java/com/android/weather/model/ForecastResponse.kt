@@ -1,6 +1,11 @@
 package com.android.weather.model
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * ForecastResponse : A POJO class.
+ */
 
 class ForecastResponse{
      @SerializedName("list")

@@ -11,6 +11,10 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver
 import io.reactivex.schedulers.Schedulers
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ */
+
 class CityDailyViewModel(application: Application) : AndroidViewModel(application) {
 
     private val apiClient = WeatherAPIClient()
@@ -32,11 +36,11 @@ class CityDailyViewModel(application: Application) : AndroidViewModel(applicatio
                         cityDailyDataList = cityDailyResponse.list!!
                         cityDailyData.value = cityDailyDataList
                         cityDailyLoading.value = false
-                        Log.i("Daily Data : ", "Çalıştı")
+                        Log.i("CityDaily : ", "Location Found!!")
                     }
 
                     override fun onError(e: Throwable) {
-                        Log.i("Daily Data : ", "HATA")
+                        Log.i("CityDaily : ", "No Location Found : " + e.message + " " + e.printStackTrace())
                     }
 
                 }

@@ -20,6 +20,12 @@ import com.android.weather.viewmodel.FiveDaysViewModel
 import im.delight.android.location.SimpleLocation
 import kotlinx.android.synthetic.main.fragment_five_days.*
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * Five Day Fragment : This screen will show next Five day temperature starting from current date with all the parameters
+ * mentioned on City Daily Fragment.
+ */
 
 class FiveDaysFragment : Fragment() {
 
@@ -112,7 +118,7 @@ class FiveDaysFragment : Fragment() {
                 viewModel.getForecastFromGps(latitude!!, longitude!!, Constant.METRIC)
 
             } else {
-                Toast.makeText(context, "İzin vereydin de konumunu bulaydık :P", Toast.LENGTH_LONG)
+                Toast.makeText(context, "Unable to get your location :P", Toast.LENGTH_LONG)
                     .show()
             }
         }

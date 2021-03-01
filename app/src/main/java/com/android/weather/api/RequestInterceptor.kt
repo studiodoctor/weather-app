@@ -3,6 +3,12 @@ package com.android.weather.api
 import okhttp3.Interceptor
 import okhttp3.Response
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * RequestInterceptor : This class creates the Retrofit client, calls the Rapid API and handles the result.
+ */
+
 class RequestInterceptor:Interceptor {
      override fun intercept(chain: Interceptor.Chain):Response{
 

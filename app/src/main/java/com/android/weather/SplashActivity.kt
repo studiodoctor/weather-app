@@ -9,6 +9,12 @@ import android.view.animation.AnimationUtils
 import androidx.databinding.DataBindingUtil
 import com.android.weather.databinding.ActivitySplashBinding
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * Splash screen: Used animation using XML files and with countdown timer.
+ */
+
 class SplashActivity : AppCompatActivity() {
 
     private lateinit var dataBinding: ActivitySplashBinding

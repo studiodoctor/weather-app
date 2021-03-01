@@ -9,6 +9,11 @@ import com.android.weather.R
 import java.text.SimpleDateFormat
 import java.util.*
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * Extensions : This class contains reusable components.
+ */
 
 fun dateConverter(): String {
     var date = Calendar.getInstance().time

@@ -11,6 +11,10 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver
 import io.reactivex.schedulers.Schedulers
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ */
+
 class LocationViewModel(application: Application) : AndroidViewModel(application) {
 
     // val currentLocationData by lazy { MutableLiveData<WeatherResponse>() }
@@ -31,11 +35,11 @@ class LocationViewModel(application: Application) : AndroidViewModel(application
                     override fun onSuccess(t: WeatherResponse) {
                         locationData.value = t
                         locationLoading.value = false
-                        Log.i("BİLGİ : ", "CALIŞTI")
+                        Log.i("Location : ", "Location Found!!")
                     }
 
                     override fun onError(e: Throwable) {
-                        Log.i("BİLGİ : ", "HATA" + e.message + " " + e.printStackTrace())
+                        Log.i("Location : ", "No Location Found : " + e.message + " " + e.printStackTrace())
 
                     }
                 })

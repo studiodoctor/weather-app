@@ -10,6 +10,12 @@ import com.android.weather.R
 import com.android.weather.databinding.ForecastWeatherDailyItemBinding
 import com.android.weather.model.CityDailyResponse
 
+/**
+ * Created by Manpreet Singh on 2021-02-29
+ *
+ * CityDailyAdapter : This adapter will show the nearby location from the current location using recyclerview.
+ */
+
 class CityDailyAdapter(val cityDailyList: ArrayList<CityDailyResponse.Forecast>) :
     RecyclerView.Adapter<CityDailyAdapter.CityDailyViewHolder>() {
 
