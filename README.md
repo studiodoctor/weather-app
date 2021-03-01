@@ -28,7 +28,7 @@ If you want to use this project, all you have to do is
 /api/RequestInterceptor/
 "x-rapidapi-key" = "Your API KEY"
 ```
-you can follow this path and use the API you obtained from OpenWeatherMap.
+you can follow this path and use the API you obtained from Rapid Api's OpenWeatherMap.
 
 ### Libraries and tools
  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
