@@ -51,18 +51,6 @@ you can follow this path and use the API you obtained from OpenWeatherMap.
 # Design
 I tried to make the design as good as I could for me :) I tried to be inspired by [Freepik](https://www.freepik.com/) and [Flaticon](https://www.flaticon.com/) sites.
 
-# Support
-If you want to support, I drink your coffee. :blush: :coffee: 
-
-[<img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/patreon.png">](https://www.patreon.com/ihaydinn)
-
-# Contact
-- [Blog](http://ismailhakkiaydin.com)
-- [Twitter](https://twitter.com/ihaydinn)
-- [Linkedin](https://linkedin.com/in/ihaydinn)
-- [Medium](https://medium.com/@ihaydinn)
-- [About Me](https://about.me/ismailhakkiaydin)
-
 # License
 ```
 Copyright (c) 2020 İsmail Hakkı AYDIN
