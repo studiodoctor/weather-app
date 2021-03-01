@@ -19,17 +19,14 @@
 ### Screenshots
 <img src="https://i.ibb.co/JjbMSF7/ss1.jpg" width="156" height="275">    <img src="https://i.ibb.co/Y8JtHtZ/ss2.jpg" width="156" height="275">    <img src="https://i.ibb.co/HTD15QL/ss3.jpg" width="156" height="275">    <img src="https://i.ibb.co/xCz7W5J/ss4.jpg" width="156" height="275">    <img src="https://i.ibb.co/P6CM7sC/ss5.jpg" width="156" height="275">
 
-### Abstract
- I decided to make the Weather app to use the new technologies of Android and improve myself. When I started doing this application, there were technologies that I used for the first time. This situation forced me a lot. I got involved in continuous research and received help from various question and answer platforms. I would like to thank everyone separately. I am sharing this project with you as open source. If you have a chance to review the code structure, don't forget to send your advice to me. When I finished this project, I learned very good experiences. This made me very happy. Now I started to roll up my sleeves to start my next project.
-
 ### Project Details
-In this weather application construction, I developed using the APIs offered on OpenWeatherMap, when we log in to the application, we first encounter location permission transactions. When the permit processes are positive, we come to the home page first. Information from the location and weather details are shown to us. When we click the daily weather from the Bottom Bar menu options, the 15-day and 3-hour weather data of our location is available. When we click the other option, the weather information of the nearest cities in our location is available. There is a background feature that changes depending on the day and night situation in your location.
+In this weather application construction, I developed using the APIs offered on Rapid Api's OpenWeatherMap, when we log in to the application, we first encounter location permission transactions. When the permit processes are positive, we come to the home page first. Information from the location and weather details are shown to us. When we click the daily weather from the Bottom Bar menu options, the 15-day and 3-hour weather data of our location is available. When we click the other option, the weather information of the nearest cities in our location is available. There is a background feature that changes depending on the day and night situation in your location.
 
 ### How Can I Use
 If you want to use this project, all you have to do is 
 ```
-/util/Constant/
-API_KEY = "Your API KEY"
+/api/RequestInterceptor/
+"x-rapidapi-key" = "Your API KEY"
 ```
 you can follow this path and use the API you obtained from OpenWeatherMap.
 
