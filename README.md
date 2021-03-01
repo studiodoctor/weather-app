@@ -17,7 +17,7 @@
 
 # About Projects
 ### Screenshots
-<img src="https://ibb.co/fvJ0p2L" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/location.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/days.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/nearby.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/nearby_detail.png" width="156" height="275">
+<img src="https://i.ibb.co/JjbMSF7/ss1.jpg" width="156" height="275">    <img src="https://i.ibb.co/Y8JtHtZ/ss2.jpg" width="156" height="275">    <img src="https://i.ibb.co/HTD15QL/ss3.jpg" width="156" height="275">    <img src="https://i.ibb.co/xCz7W5J/ss4.jpg" width="156" height="275">    <img src="https://i.ibb.co/P6CM7sC/ss5.jpg" width="156" height="275">
 
 ### Abstract
  I decided to make the Weather app to use the new technologies of Android and improve myself. When I started doing this application, there were technologies that I used for the first time. This situation forced me a lot. I got involved in continuous research and received help from various question and answer platforms. I would like to thank everyone separately. I am sharing this project with you as open source. If you have a chance to review the code structure, don't forget to send your advice to me. When I finished this project, I learned very good experiences. This made me very happy. Now I started to roll up my sleeves to start my next project.
