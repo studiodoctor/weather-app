@@ -1,23 +1,23 @@
 [![Build Status](https://img.shields.io/badge/platform-Android-green)](https://www.android.com/) [![API](https://img.shields.io/badge/API-+23-brightgreen)](https://android-arsenal.com/api?level=23) [![API](https://img.shields.io/badge/license-MIT-blue)]()
 
-<img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/logo.png" align="center">
+<img src="https://i.ibb.co/WtCKy6j/ic-launcher-web1.png" align="center">
 
 # Content
-- [About Projects](https://github.com/ihaydinn/weather-app#about-projects)
-  - [Screenshoots](https://github.com/ihaydinn/weather-app#screenshoots)
-  - [Abstract](https://github.com/ihaydinn/weather-app#abstract)
-  - [Project Details](https://github.com/ihaydinn/weather-app#projects-details)
-  - [Library and Tools](https://github.com/ihaydinn/weather-app#library-and-tools)
-  - [How Can I Use](https://github.com/ihaydinn/weather-app#how-can-i-use)
-- [Architecture](https://github.com/ihaydinn/weather-app#architecture)
-- [Design](https://github.com/ihaydinn/weather-app#desing)
-- [Support](https://github.com/ihaydinn/weather-app#support)
-- [Contact](https://github.com/ihaydinn/weather-app#contact)
-- [License](https://github.com/ihaydinn/weather-app#license)
+- [About Projects](https://github.com/studiodoctor/weather-app#about-projects)
+  - [Screenshoots](https://github.com/studiodoctor/weather-app#screenshoots)
+  - [Abstract](https://github.com/studiodoctor/weather-app#abstract)
+  - [Project Details](https://github.com/studiodoctor/weather-app#projects-details)
+  - [Library and Tools](https://github.com/studiodoctor/weather-app#library-and-tools)
+  - [How Can I Use](https://github.com/studiodoctor/weather-app#how-can-i-use)
+- [Architecture](https://github.com/studiodoctor/weather-app#architecture)
+- [Design](https://github.com/studiodoctor/weather-app#desing)
+- [Support](https://github.com/studiodoctor/weather-app#support)
+- [Contact](https://github.com/studiodoctor/weather-app#contact)
+- [License](https://github.com/studiodoctor/weather-app#license)
 
 # About Projects
 ### Screenshots
-<img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/weather-app-demo.gif" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/location.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/days.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/nearby.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/nearby_detail.png" width="156" height="275">
+<img src="https://ibb.co/fvJ0p2L" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/location.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/days.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/nearby.png" width="156" height="275">    <img src="http://ismailhakkiaydin.com/wp-content/uploads/2020/04/nearby_detail.png" width="156" height="275">
 
 ### Abstract
  I decided to make the Weather app to use the new technologies of Android and improve myself. When I started doing this application, there were technologies that I used for the first time. This situation forced me a lot. I got involved in continuous research and received help from various question and answer platforms. I would like to thank everyone separately. I am sharing this project with you as open source. If you have a chance to review the code structure, don't forget to send your advice to me. When I finished this project, I learned very good experiences. This made me very happy. Now I started to roll up my sleeves to start my next project.
