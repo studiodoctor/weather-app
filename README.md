@@ -4,7 +4,7 @@
 
 # Content
 - [About Projects](https://github.com/studiodoctor/weather-app#about-projects)
-  - [Screenshoots](https://github.com/studiodoctor/weather-app#screenshoots)
+  - [Screenshots](https://github.com/studiodoctor/weather-app#screenshoots)
   - [Abstract](https://github.com/studiodoctor/weather-app#abstract)
   - [Project Details](https://github.com/studiodoctor/weather-app#projects-details)
   - [Library and Tools](https://github.com/studiodoctor/weather-app#library-and-tools)
