@@ -50,7 +50,7 @@ I tried to make the design as good as I could for me :) I tried to be inspired b
 
 # License
 ```
-Copyright (c) 2020 İsmail Hakkı AYDIN
+Copyright (c) 2020 
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
