@@ -4,18 +4,31 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'androidx.navigation.safeargs.kotlin'
 apply plugin: 'kotlin-kapt'
 
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 31
+    buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.android.weather"
+        applicationId "com.distech.weather"
         minSdkVersion 23
-        targetSdkVersion 29
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['android']
+            keyPassword keystoreProperties['android']
+            storeFile keystoreProperties['/Users/manpreet/Documents/StudioProjects/weather-app/Weather.jks'] ? file(keystoreProperties['/Users/manpreet/Documents/StudioProjects/weather-app/Weather.jks']) : null
+            storePassword keystoreProperties['android']
+        }
     }
 
     buildTypes {

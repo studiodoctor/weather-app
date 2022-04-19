@@ -7,7 +7,7 @@
     <data>
         <variable
             name="detail"
-            type="com.android.weather.model.CityDailyResponse.Forecast" />
+            type="com.distech.weather.model.CityDailyResponse.Forecast" />
     </data>
 
 
@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         layoutBackgroundImage="@{detail.weather.get(0).icon}"
-        tools:context=".CityDailyDetailFragment">
+        tools:context="com.distech.weather.CityDailyDetailFragment">
 
 
         <View

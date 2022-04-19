@@ -6,7 +6,7 @@
     <data>
         <variable
             name="locationGPS"
-            type="com.android.weather.model.WeatherResponse" />
+            type="com.distech.weather.model.WeatherResponse" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
