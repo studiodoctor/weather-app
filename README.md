@@ -15,7 +15,14 @@
 - [Contact](https://github.com/studiodoctor/weather-app#contact)
 - [License](https://github.com/studiodoctor/weather-app#license)
 
-# About Projects
+# Download from Google PlayStore
+<p align="start">
+<a href="https://play.google.com/store/apps/details?id=com.distech.weather">
+         <img alt="Qries" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/800px-Google_Play_Store_badge_EN.svg.png"
+         width="200" height="60">
+</a>
+</p>
+# About Project
 ### Screenshots
 <img src="https://i.ibb.co/JjbMSF7/ss1.jpg" width="156" height="275">    <img src="https://i.ibb.co/Y8JtHtZ/ss2.jpg" width="156" height="275">    <img src="https://i.ibb.co/HTD15QL/ss3.jpg" width="156" height="275">    <img src="https://i.ibb.co/xCz7W5J/ss4.jpg" width="156" height="275">    <img src="https://i.ibb.co/P6CM7sC/ss5.jpg" width="156" height="275">
 
